@@ -20,9 +20,9 @@ podTemplate(
     node('mypod') {
         stage ('Deploy') {
             container ('base') {
-                sh "git clone https://github.com/jawlitkp/consul-svc.git"
+                sh "git clone https://github.com/jawlitkp/consul-config-loader-svc.git"
                 sh "ls -la"
-                sh "./consul-svc/install.sh"
+                sh "./consul-config-loader-svc/install.sh"
             }
         }
     }
