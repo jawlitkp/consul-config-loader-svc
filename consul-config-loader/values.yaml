@@ -1,0 +1,6 @@
+# Default values for consul-config-loader.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+consulIp: 10.23.252.172
+
