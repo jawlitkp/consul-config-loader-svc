@@ -4,7 +4,7 @@ podTemplate(
     containers: [
         containerTemplate(
             name: 'base', 
-            image: 'jenkinsxio/builder-base:0.1.175',
+            image: 'jawlitkp/builder-base:v1.0.0',
             ttyEnabled: true,
             command: 'cat'
         )
