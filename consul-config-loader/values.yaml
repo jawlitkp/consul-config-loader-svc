@@ -2,5 +2,5 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-consulIp: 10.51.251.134
+consulIp: 10.51.254.34
 
